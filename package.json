@@ -1,0 +1,31 @@
+{
+  "name": "dirty_words",
+  "version": "1.0.0",
+  "description": "Fun little React/Node.js app for searching Urban Dictionary",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessie Samuelson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "serve-favicon": "^2.3.0",
+    "morgan": "^1.6.1",
+    "cookie-parser": "^1.3.3",
+    "debug": "~2.2.0",
+    "body-parser": "^1.13.3",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^1.4.4",
+    "monk": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-develop": "^0.4.0",
+    "grunt-sass": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "request": "^2.60.0",
+    "time-grunt": "^1.2.1",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}
